@@ -1,0 +1,109 @@
+*{/*seletor universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{/*váriaveis*/
+    --bg-color: #E5E5E5 ;
+    --text-color: #00082F;
+    --primary-color: #4263eb;
+    --primary-color-dark: #4263eb;
+}
+body.dark {
+    --bg-color:#00082F; 
+    --text-color: #FFFF;
+    
+
+}
+body.pink{
+    --bg-color:#a2a844; 
+    --text-color: #1f000b;
+    --primary-color:#D6336C;
+    --primary-color-dark: #a61e4d;
+}
+body.darkpink{
+    --bg-color:#000000;
+    --text-color: #e22b2b;
+    --primary-color: #e20d58;
+    --primary-color-dark:#e10250;
+  }
+  
+.container{
+    
+    text-align: center; /*alinhador de texto ao centro*/
+    width: 1100px;
+    margin: 60px auto; /*margem de texto ao centro*/
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    background:var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ul{
+    list-style: none;/*mudei o estilo da lista*/ 
+    margin: 50px;
+    
+}
+h1{/*ERICA MONTEIRO*/
+    font-size: 32px;
+    border: 2px 
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+p{/*@erica*/
+    font-size: 22px;
+    border: 2px 
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+ul li a{ /*insta whats e linkedin*/
+    height: 53px;
+    background: #4263EB;
+    
+    color: black;
+    transition: background 400ms;
+}
+ul li a:hover{ /*insta whats e linkedin houver altera algo*/
+    
+    background: rgb(12, 252, 4);
+    
+}
+ul li a.insta:hover{
+    background: rgb(255, 111, 135);
+}
+ul li a.linkedin:hover{
+    background: rgb(7, 243, 247);
+}
+.imagem1{
+    width: 100px;
+    border-radius: 50%;
+    height: 119px;
+    border: var(--primary-color) ;
+    padding: 2px;
+    
+}
+
+
+.imagem2{
+    
+   width: 30px;
+   border-radius: 50%; 
+    height: 30px;
+}
+footer {
+    color: rgb(7, 7, 7);
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.6;
+}
+footer:hover{
+    opacity: 1;
+}
+footer a{
+    color: purple;
+}
